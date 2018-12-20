@@ -1,0 +1,67 @@
+body {
+ background-image: url("../img/tlo.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-color: #03131a;
+  height: 100%;
+}
+#tlo {
+  color: #000000;
+  width: 100%;
+  z-index: 0;
+   
+}
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: grey;
+}
+#board {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid gray;
+    padding: 20px;
+}
+#board h1{
+  margin:60px;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 3px;
+  border: 4px solid grey;
+  border-radius: 4px;
+  filter: brightness(70%);
+  transition: all 0.3s ease-in-out;
+  vertical-align: bottom;
+}
+.game-card{
+  cursor: pointer;
+}
+.card-holder{
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.scores-label{
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: grey;
+}
+#win-cards{
+  margin-top: 5px;
+}
